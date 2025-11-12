@@ -34,7 +34,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1262, 673);
+            this.ClientSize = new System.Drawing.Size(1280, 720);
             this.Name = "MainForm";
             this.Text = "MotoCompany - Game V1.0";
             this.Load += new System.EventHandler(this.MainForm_Load);

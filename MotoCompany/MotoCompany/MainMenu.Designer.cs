@@ -36,7 +36,7 @@
             // 
             // btnNewGame
             // 
-            this.btnNewGame.Location = new System.Drawing.Point(524, 200);
+            this.btnNewGame.Location = new System.Drawing.Point(543, 237);
             this.btnNewGame.Name = "btnNewGame";
             this.btnNewGame.Size = new System.Drawing.Size(192, 50);
             this.btnNewGame.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(524, 368);
+            this.button2.Location = new System.Drawing.Point(543, 405);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(192, 50);
             this.button2.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(524, 256);
+            this.button3.Location = new System.Drawing.Point(543, 293);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(192, 50);
             this.button3.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(524, 312);
+            this.button4.Location = new System.Drawing.Point(543, 349);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(192, 50);
             this.button4.TabIndex = 3;
@@ -82,7 +82,7 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.btnNewGame);
             this.Name = "MainMenu";
-            this.Size = new System.Drawing.Size(1238, 649);
+            this.Size = new System.Drawing.Size(1280, 720);
             this.Load += new System.EventHandler(this.MainMenu_Load);
             this.ResumeLayout(false);
 

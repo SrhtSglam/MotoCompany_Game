@@ -12,9 +12,11 @@ namespace MotoCompany
 {
     public partial class PCScreen : UserControl
     {
-        public PCScreen()
+        MainForm main;
+        public PCScreen(MainForm form)
         {
             InitializeComponent();
+            main = form;
         }
 
         private void PCScreen_Load(object sender, EventArgs e)
@@ -30,6 +32,11 @@ namespace MotoCompany
         private void btnComCoin_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnBackPage_Click(object sender, EventArgs e)
+        {
+            main.ShowScreen(new GameScreen(main));
         }
     }
 }
